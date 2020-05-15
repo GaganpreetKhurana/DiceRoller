@@ -2,5 +2,7 @@
     <string name="app_name">Dice Roller</string>
     <string name="roll_label">Roll</string>
     <string name="titleLabel">Roll Dice</string>
-    <string name="count_label">Count Up</string>
+    <string name="clear">Clear</string>
+    <string name="dice_name">Dice 1</string>
+    <string name="dice2_name">Dice 2</string>
 </resources>

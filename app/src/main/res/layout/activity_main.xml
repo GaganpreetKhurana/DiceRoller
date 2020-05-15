@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -13,7 +14,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/empty_dice"
+        android:contentDescription="@string/dice_name"
+        app:srcCompat="@drawable/empty_dice"
+        tools:src="@drawable/empty_dice" />
+
+    <ImageView
+        android:id="@+id/dice_image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/dice2_name"
+        app:srcCompat="@drawable/empty_dice"
         tools:src="@drawable/empty_dice" />
 
     <Button
@@ -24,9 +35,9 @@
         android:text="@string/roll_label" />
 
     <Button
-        android:id="@+id/count_up"
+        android:id="@+id/clear_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/count_label" />
+        android:text="@string/clear" />
 </LinearLayout>
